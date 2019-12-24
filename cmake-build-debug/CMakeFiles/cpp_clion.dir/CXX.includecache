@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wss/Documents/code/cpp_clion/CSP201509-3模板生成系统.cpp
+iostream
+-
+map
+-
+vector
+-
+string
+-
+
