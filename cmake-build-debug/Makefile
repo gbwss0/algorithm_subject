@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wss/Documents/code/cpp_clion
+CMAKE_SOURCE_DIR = /Users/wss/code/algorithm_subject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wss/Documents/code/cpp_clion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wss/code/algorithm_subject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wss/Documents/code/cpp_clion/cmake-build-debug/CMakeFiles /Users/wss/Documents/code/cpp_clion/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wss/code/algorithm_subject/cmake-build-debug/CMakeFiles /Users/wss/code/algorithm_subject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wss/Documents/code/cpp_clion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wss/code/algorithm_subject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ cpp_clion/fast:
 	$(MAKE) -f CMakeFiles/cpp_clion.dir/build.make CMakeFiles/cpp_clion.dir/build
 .PHONY : cpp_clion/fast
 
-CSP201509-3模板生成系统.o: CSP201509-3模板生成系统.cpp.o
+os_5.o: os_5.c.o
 
-.PHONY : CSP201509-3模板生成系统.o
+.PHONY : os_5.o
 
 # target to build an object file
-CSP201509-3模板生成系统.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_clion.dir/build.make CMakeFiles/cpp_clion.dir/CSP201509-3模板生成系统.cpp.o
-.PHONY : CSP201509-3模板生成系统.cpp.o
+os_5.c.o:
+	$(MAKE) -f CMakeFiles/cpp_clion.dir/build.make CMakeFiles/cpp_clion.dir/os_5.c.o
+.PHONY : os_5.c.o
 
-CSP201509-3模板生成系统.i: CSP201509-3模板生成系统.cpp.i
+os_5.i: os_5.c.i
 
-.PHONY : CSP201509-3模板生成系统.i
+.PHONY : os_5.i
 
 # target to preprocess a source file
-CSP201509-3模板生成系统.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_clion.dir/build.make CMakeFiles/cpp_clion.dir/CSP201509-3模板生成系统.cpp.i
-.PHONY : CSP201509-3模板生成系统.cpp.i
+os_5.c.i:
+	$(MAKE) -f CMakeFiles/cpp_clion.dir/build.make CMakeFiles/cpp_clion.dir/os_5.c.i
+.PHONY : os_5.c.i
 
-CSP201509-3模板生成系统.s: CSP201509-3模板生成系统.cpp.s
+os_5.s: os_5.c.s
 
-.PHONY : CSP201509-3模板生成系统.s
+.PHONY : os_5.s
 
 # target to generate assembly for a file
-CSP201509-3模板生成系统.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_clion.dir/build.make CMakeFiles/cpp_clion.dir/CSP201509-3模板生成系统.cpp.s
-.PHONY : CSP201509-3模板生成系统.cpp.s
+os_5.c.s:
+	$(MAKE) -f CMakeFiles/cpp_clion.dir/build.make CMakeFiles/cpp_clion.dir/os_5.c.s
+.PHONY : os_5.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_clion"
-	@echo "... CSP201509-3模板生成系统.o"
-	@echo "... CSP201509-3模板生成系统.i"
-	@echo "... CSP201509-3模板生成系统.s"
+	@echo "... os_5.o"
+	@echo "... os_5.i"
+	@echo "... os_5.s"
 .PHONY : help
 
 

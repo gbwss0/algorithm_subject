@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/wss/Documents/code/cpp_clion/CSP201709-1打酱油.c
+/Users/wss/code/algorithm_subject/os_5.c
 stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
 -
 
